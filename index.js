@@ -5,12 +5,12 @@ const image = document.getElementById('myImage');
 const body = document.getElementById('body');
 const turnOnFunction = () => {
     image.src = 'turnOn.png';
-    switchs.innerHTML = 'Bulb in ON'
+    switchs.innerHTML = 'Bulb is ON'
     body.style.backgroundColor = '#ffff99'
 }
 const turnOffFunction = () => {
     image.src = 'turnOff.png';
-    switchs.innerHTML = 'Bulb in OFF'
+    switchs.innerHTML = 'Bulb is OFF'
     body.style.backgroundColor = '#999999'
 }
 
